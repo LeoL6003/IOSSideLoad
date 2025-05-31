@@ -1,90 +1,151 @@
 {
-  "name": "YoutubePlus",
-  "identifier": "com.ytlite.source",
-  "website": "https://github.com/dayanch96/YTLite",
-  "subtitle": "YoutubePlus Altstore source.",
-  "description": "This is an Altstore source for YoutubePlus.\n\nYoutubePlus is an enhanced Youtube app that offers a superior Youtube experience, combining YTLite (by @dayanch96) with numerous other tweaks.\n\nFor full details on what's included, check the GitHub repository:\n\nhttps://github.com/YTLitePlus/YTLitePlus",
-  "tintColor": "e22a41",
-  "iconURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/Youtube_logo-512.png",
-  "headerURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/screenshots/header/altstore_header.png",
-  "apps": [
-    {
-      "beta": false,
-      "name": "YoutubePlus",
-      "bundleIdentifier": "com.google.ios.youtube",
-      "developerName": "Various Developers",
-      "subtitle": "YoutubePlus",
-      "version": "20.16.7",
-      "versionDate": "2025-01-03",
-      "versionDescription": "Current YouTube IPA: \"20.16.7\"  \r\nCurrent YTLite Version: \"5.2b1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 15.0\" or later\r\n\r\nRELEASE 19.34.2\u20225.0.1: (2024\u202209\u202203)\r\n\r\n\u2022 Updated Youtube from \"19.32.6\" to \"19.34.2\"\r\n\u2022 Updated YTLite from \"4.0.1\" to \"5.0.1\"\r\n\r\nIssues in this Release:\r\n\u2022 Touches will not work while bypassing startup popup\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\r\nCatbox\r\n\"z8jg5n.ipa\"",
-      "downloadURL": "https://www.dropbox.com/scl/fi/cxhgc0gbghr60i3yhefpl/YoutubePlus20.16.7-5.2b1.ipa.ipa?rlkey=krh2hcukun39kgs4pglmy6ld0&st=e991wzw2&dl=1",
-      "localizedDescription": "YTLite with more features!\n\nYTLitePlus is an enhanced Youtube app that offers a superior Youtube experience, combining YTLite (by @dayanch96) with numerous other tweaks :\n\n\u2022 YTLite\n\u2022 YTUHD\n\u2022 YouPiP\n\u2022 YTABConfig\n\u2022 YouMute\n\u2022 DontEatMyContent\n\u2022 Return YouTube Dislikes\n\u2022 iSponsorBlock\n\u2022 YouRememberCaption\n\u2022 YTNoTracking\n\u2022 YTUnShorts\n\u2022 YTNoCheckLocalNetwork\n\u2022 BigYTMiniPlayer\n\u2022 YTSpeed\n\u2022 YTHoldForSpeed\n\u2022 YTVideoOverlay\n\u2022 YouQuality\n\u2022 YTNoModernUI\n\u2022 OLEDDarkmode\n\u2022 OLDDarkmode\n\u2022 LowContrastMode\n\u2022 YTNoSuggestedVideo\n\nCredit\n\n@Balackburn, @bhackel, @Deci8BelioS, @matt911, @arichornloverALT, @Macleykun, @AlexInABox, @SKEIDs, @VictorxD70, @Glenta, @zSaaiq, @MrAlucardDante, @gototheskinny, @asdfzxcvbn, @dayanch96, @ssuesskind, @MiRO92, @qnblackcat, @PoomSmart, @level3tjg, @BandarHL, @Galactic-Dev, @julioverne, @hbang, @Lyvendia, @therealFoxster, @ichitaso, @AhmedBafkir, @CokePokes, @ISnackable",
-      "iconURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/Youtube_logo-512.png",
-      "tintColor": "e22a41",
-      "category": "social",
-      "size": 111020044,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/1.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/2.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/3.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/4.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/5.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/6.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/7.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/8.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/9.png"
-      ],
-      "appPermissions": {
-        "entitlements": [
-          "com.apple.security.application-groups",
-          "com.apple.developer.associated-domains",
-          "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
-          "com.apple.developer.usernotifications.time-sensitive",
-          "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
-          "com.apple.developer.usernotifications.time-sensitive",
-          "get-task-allow",
-          "com.apple.developer.device-information.user-assigned-device-name",
-          "com.apple.developer.group-session",
-          "keychain-access-groups",
-          "com.apple.developer.networking.multicast",
-          "aps-environment",
-          "com.apple.developer.networking.wifi-info",
-          "com.apple.developer.siri"
-        ],
-        "privacy": {
-          "NSAppleMusicUsageDescription": "YoutubePlus requires access to your Apple Music library.",
-          "NSBluetoothPeripheralUsageDescription": "YoutubePlus requires Bluetooth access to connect with nearby peripherals.",
-          "NSCameraUsageDescription": "YoutubePlus requires access to the camera to capture photos and videos.",
-          "NSContactsUsageDescription": "YoutubePlus requires access to your contacts to help you share content with your friends.",
-          "NSLocalNetworkUsageDescription": "YoutubePlus requires local network access to connect and communicate with nearby devices.",
-          "NSLocationWhenInUseUsageDescription": "YoutubePlus requires access to your location while using the app to provide personalized recommendations.",
-          "NSMicrophoneUsageDescription": "YoutubePlus requires access to your microphone to record audio.",
-          "NSPhotoLibraryUsageDescription": "YoutubePlus requires access to your Photo Library to save photos and videos.",
-          "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YoutubePlus will link activity from this app with activity from non-Google apps and websites."
+    "name": "YoutubePlus",
+    "identifier": "com.ytlite.source",
+    "website": "https://github.com/dayanch96/YTLite",
+    "subtitle": "YoutubePlus Altstore source.",
+    "description": "This is an Altstore source for YoutubePlus.\n\nYoutubePlus is an enhanced Youtube app that offers a superior Youtube experience, combining YTLite (by @dayanch96) with numerous other tweaks.\n\nFor full details on what's included, check the GitHub repository:\n\nhttps://github.com/YTLitePlus/YTLitePlus",
+    "tintColor": "e22a41",
+    "iconURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/Youtube_logo-512.png",
+    "headerURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/screenshots/header/altstore_header.png",
+    "apps": [{
+            "beta": false,
+            "name": "YoutubePlus",
+            "bundleIdentifier": "com.google.ios.youtube",
+            "developerName": "Various Developers",
+            "subtitle": "YoutubePlus",
+            "version": "20.16.7",
+            "versionDate": "2025-01-03",
+            "versionDescription": "Current YouTube IPA: \"19.34.2\"  \r\nCurrent YTLite Version: \"5.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 15.0\" or later\r\n\r\nRELEASE 19.34.2\u20225.0.1: (2024\u202209\u202203)\r\n\r\n\u2022 Updated Youtube from \"19.32.6\" to \"19.34.2\"\r\n\u2022 Updated YTLite from \"4.0.1\" to \"5.0.1\"\r\n\r\nIssues in this Release:\r\n\u2022 Touches will not work while bypassing startup popup\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\r\nCatbox\r\n\"z8jg5n.ipa\"",
+            "downloadURL": "https://www.dropbox.com/scl/fi/uol4nudwn6naz5vvlhb1e/YTLitePlus19.34.2.ipa?rlkey=t18rzdctfoigf6rpf9mos2j4v&st=3kixlvrj&dl=1",
+            "localizedDescription": "YTLite with more features!\n\nYTLitePlus is an enhanced Youtube app that offers a superior Youtube experience, combining YTLite (by @dayanch96) with numerous other tweaks :\n\n\u2022 YTLite\n\u2022 YTUHD\n\u2022 YouPiP\n\u2022 YTABConfig\n\u2022 YouMute\n\u2022 DontEatMyContent\n\u2022 Return YouTube Dislikes\n\u2022 iSponsorBlock\n\u2022 YouRememberCaption\n\u2022 YTNoTracking\n\u2022 YTUnShorts\n\u2022 YTNoCheckLocalNetwork\n\u2022 BigYTMiniPlayer\n\u2022 YTSpeed\n\u2022 YTHoldForSpeed\n\u2022 YTVideoOverlay\n\u2022 YouQuality\n\u2022 YTNoModernUI\n\u2022 OLEDDarkmode\n\u2022 OLDDarkmode\n\u2022 LowContrastMode\n\u2022 YTNoSuggestedVideo\n\nCredit\n\n@Balackburn, @bhackel, @Deci8BelioS, @matt911, @arichornloverALT, @Macleykun, @AlexInABox, @SKEIDs, @VictorxD70, @Glenta, @zSaaiq, @MrAlucardDante, @gototheskinny, @asdfzxcvbn, @dayanch96, @ssuesskind, @MiRO92, @qnblackcat, @PoomSmart, @level3tjg, @BandarHL, @Galactic-Dev, @julioverne, @hbang, @Lyvendia, @therealFoxster, @ichitaso, @AhmedBafkir, @CokePokes, @ISnackable",
+            "iconURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/Youtube_logo-512.png",
+            "tintColor": "e22a41",
+            "category": "social",
+            "size": 111020044,
+            "screenshotURLs": [
+                "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/1.png",
+                "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/2.png",
+                "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/3.png",
+                "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/4.png",
+                "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/5.png",
+                "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/6.png",
+                "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/7.png",
+                "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/8.png",
+                "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/9.png"
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups",
+                    "com.apple.developer.associated-domains",
+                    "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+                    "com.apple.developer.usernotifications.time-sensitive",
+                    "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+                    "com.apple.developer.usernotifications.time-sensitive",
+                    "get-task-allow",
+                    "com.apple.developer.device-information.user-assigned-device-name",
+                    "com.apple.developer.group-session",
+                    "keychain-access-groups",
+                    "com.apple.developer.networking.multicast",
+                    "aps-environment",
+                    "com.apple.developer.networking.wifi-info",
+                    "com.apple.developer.siri"
+                ],
+                "privacy": {
+                    "NSAppleMusicUsageDescription": "YoutubePlus requires access to your Apple Music library.",
+                    "NSBluetoothPeripheralUsageDescription": "YoutubePlus requires Bluetooth access to connect with nearby peripherals.",
+                    "NSCameraUsageDescription": "YoutubePlus requires access to the camera to capture photos and videos.",
+                    "NSContactsUsageDescription": "YoutubePlus requires access to your contacts to help you share content with your friends.",
+                    "NSLocalNetworkUsageDescription": "YoutubePlus requires local network access to connect and communicate with nearby devices.",
+                    "NSLocationWhenInUseUsageDescription": "YoutubePlus requires access to your location while using the app to provide personalized recommendations.",
+                    "NSMicrophoneUsageDescription": "YoutubePlus requires access to your microphone to record audio.",
+                    "NSPhotoLibraryUsageDescription": "YoutubePlus requires access to your Photo Library to save photos and videos.",
+                    "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YoutubePlus will link activity from this app with activity from non-Google apps and websites."
+                }
+            },
+            "versions": [{
+                    "version": "20.16.7",
+                    "date": "2025-01-03",
+                    "localizedDescription": "Current YouTube IPA: \"20.16.7\"  \r\nCurrent YoutubePlus Version: \"5.2b1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 15.0\" or later\r\n\r\nRELEASE 19.34.2\u20225.0.1: (2024\u202209\u202203)\r\n\r\n\u2022 Updated Youtube from \"19.32.6\" to \"19.34.2\"\r\n\u2022 Updated YTLite from \"4.0.1\" to \"5.0.1\"\r\n\r\nIssues in this Release:\r\n\u2022 Touches will not work while bypassing startup popup\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\r\nCatbox\r\n\"z8jg5n.ipa\"",
+                    "downloadURL": "https://www.dropbox.com/scl/fi/uol4nudwn6naz5vvlhb1e/YTLitePlus19.34.2.ipa?rlkey=t18rzdctfoigf6rpf9mos2j4v&st=3kixlvrj&dl=1",
+                    "size": 111020044
+                }
+            ]
+        },
+		{
+            "beta": false,
+            "name": "YoutubeMusic",
+            "bundleIdentifier": "com.google.ios.youtube",
+            "developerName": "Various Developers",
+            "subtitle": "YoutubeMusic",
+            "version": "7.14.3",
+            "versionDate": "2025-01-03",
+            "versionDescription": "Current YouTubeMusic IPA: \"7.14.3\"  \r\nCurrent Youtube Music Ultimate Version: \"0.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 15.0\" or later\r\n\r\nRELEASE 19.34.2\u20225.0.1: (2024\u202209\u202203)\r\n\r\n\u2022 Updated Youtube from \"19.32.6\" to \"19.34.2\"\r\n\u2022 Updated YTLite from \"4.0.1\" to \"5.0.1\"\r\n\r\nIssues in this Release:\r\n\u2022 Touches will not work while bypassing startup popup\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\r\nCatbox\r\n\"z8jg5n.ipa\"",
+            "downloadURL": "https://www.dropbox.com/scl/fi/sjrf346twcr7dljd7r4yk/YTMusicUltimate.ipa?rlkey=5euk6ullz255za6jf57n7pz8u&st=pj9hc996&dl=1",
+            "localizedDescription": "YTLite with more features!\n\nYTLitePlus is an enhanced Youtube app that offers a superior Youtube experience, combining YTLite (by @dayanch96) with numerous other tweaks :\n\n\u2022 YTLite\n\u2022 YTUHD\n\u2022 YouPiP\n\u2022 YTABConfig\n\u2022 YouMute\n\u2022 DontEatMyContent\n\u2022 Return YouTube Dislikes\n\u2022 iSponsorBlock\n\u2022 YouRememberCaption\n\u2022 YTNoTracking\n\u2022 YTUnShorts\n\u2022 YTNoCheckLocalNetwork\n\u2022 BigYTMiniPlayer\n\u2022 YTSpeed\n\u2022 YTHoldForSpeed\n\u2022 YTVideoOverlay\n\u2022 YouQuality\n\u2022 YTNoModernUI\n\u2022 OLEDDarkmode\n\u2022 OLDDarkmode\n\u2022 LowContrastMode\n\u2022 YTNoSuggestedVideo\n\nCredit\n\n@Balackburn, @bhackel, @Deci8BelioS, @matt911, @arichornloverALT, @Macleykun, @AlexInABox, @SKEIDs, @VictorxD70, @Glenta, @zSaaiq, @MrAlucardDante, @gototheskinny, @asdfzxcvbn, @dayanch96, @ssuesskind, @MiRO92, @qnblackcat, @PoomSmart, @level3tjg, @BandarHL, @Galactic-Dev, @julioverne, @hbang, @Lyvendia, @therealFoxster, @ichitaso, @AhmedBafkir, @CokePokes, @ISnackable",
+            "iconURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/Youtube_logo-512.png",
+            "tintColor": "e22a41",
+            "category": "social",
+            "size": 111020044,
+            "screenshotURLs": [
+                "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/1.png",
+                "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/2.png",
+                "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/3.png",
+                "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/4.png",
+                "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/5.png",
+                "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/6.png",
+                "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/7.png",
+                "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/8.png",
+                "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/9.png"
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups",
+                    "com.apple.developer.associated-domains",
+                    "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+                    "com.apple.developer.usernotifications.time-sensitive",
+                    "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+                    "com.apple.developer.usernotifications.time-sensitive",
+                    "get-task-allow",
+                    "com.apple.developer.device-information.user-assigned-device-name",
+                    "com.apple.developer.group-session",
+                    "keychain-access-groups",
+                    "com.apple.developer.networking.multicast",
+                    "aps-environment",
+                    "com.apple.developer.networking.wifi-info",
+                    "com.apple.developer.siri"
+                ],
+                "privacy": {
+                    "NSAppleMusicUsageDescription": "YoutubePlus requires access to your Apple Music library.",
+                    "NSBluetoothPeripheralUsageDescription": "YoutubePlus requires Bluetooth access to connect with nearby peripherals.",
+                    "NSCameraUsageDescription": "YoutubePlus requires access to the camera to capture photos and videos.",
+                    "NSContactsUsageDescription": "YoutubePlus requires access to your contacts to help you share content with your friends.",
+                    "NSLocalNetworkUsageDescription": "YoutubePlus requires local network access to connect and communicate with nearby devices.",
+                    "NSLocationWhenInUseUsageDescription": "YoutubePlus requires access to your location while using the app to provide personalized recommendations.",
+                    "NSMicrophoneUsageDescription": "YoutubePlus requires access to your microphone to record audio.",
+                    "NSPhotoLibraryUsageDescription": "YoutubePlus requires access to your Photo Library to save photos and videos.",
+                    "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YoutubePlus will link activity from this app with activity from non-Google apps and websites."
+                }
+            },
+            "versions": [{
+                    "version": "20.16.7",
+                    "date": "2025-01-03",
+                    "localizedDescription": "Current YouTube IPA: \"7.14.3\"  \r\nCurrent YoutubePlus Version: \"0.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 15.0\" or later\r\n\r\nRELEASE 19.34.2\u20225.0.1: (2024\u202209\u202203)\r\n\r\n\u2022 Updated Youtube from \"19.32.6\" to \"19.34.2\"\r\n\u2022 Updated YTLite from \"4.0.1\" to \"5.0.1\"\r\n\r\nIssues in this Release:\r\n\u2022 Touches will not work while bypassing startup popup\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\r\nCatbox\r\n\"z8jg5n.ipa\"",
+                    "downloadURL": "https://www.dropbox.com/scl/fi/sjrf346twcr7dljd7r4yk/YTMusicUltimate.ipa?rlkey=5euk6ullz255za6jf57n7pz8u&st=pj9hc996&dl=1",
+                    "size": 111020044
+                }
+            ]
         }
-      },
-      "versions": [
-        {
-          "version": "20.16.7",
-          "date": "2025-01-03",
-          "localizedDescription": "Current YouTube IPA: \"20.16.7\"  \r\nCurrent YoutubePlus Version: \"5.2b1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 15.0\" or later\r\n\r\nRELEASE 19.34.2\u20225.0.1: (2024\u202209\u202203)\r\n\r\n\u2022 Updated Youtube from \"19.32.6\" to \"19.34.2\"\r\n\u2022 Updated YTLite from \"4.0.1\" to \"5.0.1\"\r\n\r\nIssues in this Release:\r\n\u2022 Touches will not work while bypassing startup popup\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\r\nCatbox\r\n\"z8jg5n.ipa\"",
-          "downloadURL": "https://www.dropbox.com/scl/fi/cxhgc0gbghr60i3yhefpl/YoutubePlus20.16.7-5.2b1.ipa.ipa?rlkey=krh2hcukun39kgs4pglmy6ld0&st=e991wzw2&dl=1",
-          "size": 111020044
+    ],
+    "news": [{
+            "appID": "com.google.ios.youtube",
+            "caption": "Update of YTLitePlus just got released!",
+            "date": "2023-07-10",
+            "identifier": "release-18.27.3-2.2.1",
+            "imageURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/screenshots/news/new_release.png",
+            "notify": true,
+            "tintColor": "000000",
+            "title": "18.27.3-2.2.1 - YTLitePlus  10/07/23",
+            "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.27.3-2.2.1"
         }
-      ]
-    }
-  ],
-  "news": [
-    {
-      "appID": "com.google.ios.youtube",
-      "caption": "Update of YTLitePlus just got released!",
-      "date": "2023-07-10",
-      "identifier": "release-18.27.3-2.2.1",
-      "imageURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/screenshots/news/new_release.png",
-      "notify": true,
-      "tintColor": "000000",
-      "title": "18.27.3-2.2.1 - YTLitePlus  10/07/23",
-      "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.27.3-2.2.1"
-    }
-  ]
+    ]
 }
